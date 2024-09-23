@@ -1,4 +1,4 @@
-﻿State,Population,2017 GDPper capita(RM)
+﻿State,Population,2017 GDP per capita(RM)
 Pulau Pinang,1773600,49873
 Sarawak,2816500,49327
 Selangor,6538000,48091
@@ -12,3 +12,6 @@ Sabah,3908500,23979
 Perlis,254900,23372
 Kedah,2185100,20327
 Kelantan,1906700,13593
+Kuala Lumpur,,"28,736"
+Labuan,,"83,596"
+Putrajaya,,"18,929"
