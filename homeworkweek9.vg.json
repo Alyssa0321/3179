@@ -1,40 +1,39 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "GDP per Capita by State (2017)",
-    "width": 800,
-    "height": 400,
-    "data": {
-      "url": "https://raw.githubusercontent.com/Alyssa0321/3179/refs/heads/main/week9homework.json",
-      "format": {"type": "topojson","feature":"my"}
-    },
-    "transform": [
-      {
-        "lookup": "properties.name",
-        "from": {
-          "data": {
-            "url": "https://raw.githubusercontent.com/Alyssa0321/3179/refs/heads/main/Gdp_per_capita_2017.csv",
-            "format": {"type": "csv"}
-          },
-          "key": "State",
-          "fields": ["2017 GDPper capita(RM)"]
-        }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "GDP per Capita by State",
+  "width": 800,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Alyssa0321/3179/refs/heads/main/my_1.topojson",
+  "format": {"type": "topojson", "feature":"my_1"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Alyssa0321/3179/refs/heads/main/Gdp_per_capita_2017.csv",
+          "format": {"type": "csv"}
+        },
+        "key": "State",
+        "fields": ["2017 GDP per capita(RM)"]
       }
-    ],
-    "mark": {"type": "geoshape"},
-    "encoding": {
-      "color": {
-        "field": "2017 GDPper capita(RM)",
-        "type": "quantitative",
-        "scale": {
-          "type": "threshold",
-          "domain": [10000,20000,30000,40000],
-          "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
-        }
-      },
-      "tooltip": [
-        {"field": "properties.name", "type": "nominal", "title": "State"},
-        {"field": "2017 GDPper capita(RM)", "type": "quantitative", "title": "GDP per Capita (RM)"}
-      ]
     }
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "2017 GDP per capita(RM)",
+      "type": "quantitative",
+      "scale": {
+        "type": "threshold",
+        "domain": [10000,20000,30000,40000,45000],
+        "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+      }
+    },
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "State"},
+      {"field": "2017 GDP per capita(RM)", "type": "quantitative"}
+    ]
   }
-  
+}
