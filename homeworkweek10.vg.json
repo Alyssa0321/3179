@@ -1,85 +1,98 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 400,
-    "title": "GDP per Capita vs. Employment (2017)",
-    "data": {
-      "url": "https://raw.githubusercontent.com/Alyssa0321/3179/refs/heads/main/week10_homework/combined_data.csv"
-    },
-    "params": [
-      {
-        "name": "Population_Above",
-        "value": 0,
-        "bind": {
-          "input": "range",
-          "min": 0,
-          "max": 3300,
-          "step": 100
-        }
-      }
-    ],
-    "transform": [
-      {"filter": "datum['2017 GDP per capita (RM)'] > 0"},
-      {"filter": "datum['Employed person in Thousands'] > 0"},
-      {"filter": "datum['Employed person in Thousands'] > Population_Above"}
-    ],
-    "encoding": {
-      "x": {
-        "field": "2017 GDP per capita (RM)",
-        "type": "quantitative",
-        "title": "GDP per Capita (RM)",
-        "axis": {"tickCount": 7}
-      },
-      "y": {
-        "field": "Employed person in Thousands",
-        "type": "quantitative",
-        "title": "Employed Persons (in Thousands)",
-        "axis": {"tickCount": 6}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 400,
+  "title": "GDP per Capita vs. Employment (2017)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Alyssa0321/3179/refs/heads/main/week10_homework/combined_data.csv"
+  },
+  "params": [
+    {
+      "name": "Population_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 3300,
+        "step": 100
       }
     },
-    "layer": [
-      {
-        "mark": "circle",
-        "encoding": {
-          "size": {
-            "field": "2017 GDP per capita (RM)",
-            "type": "quantitative",
-            "scale": {
-              "type": "log",
-              "range": [30, 500]
-            }
-          },
-          "color": {
-            "field": "State",
-            "type": "nominal",
-            "legend": {"title": "State"}
-          },
-          "tooltip": [
-            {"field": "State", "type": "nominal"},
-            {"field": "2017 GDP per capita (RM)", "type": "quantitative", "format": ","},
-            {"field": "Employed person in Thousands", "type": "quantitative", "format": ","}
-          ]
-        }
-      },
-      {
-        "mark": {
-          "type": "text",
-          "align": "right",
-          "baseline": "middle",
-          "dx": -12,
-          "fontSize": 11.5,
-          "fontStyle": "italic"
+    {
+      "name": "Employment_Above",  
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 3000,
+        "step": 100
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum['2017 GDP per capita (RM)'] > 0"},
+    {"filter": "datum['Employed person in Thousands'] > 0"},
+    {"filter": "datum['Employed person in Thousands'] > Population_Above"}
+  ],
+  "encoding": {
+    "x": {
+      "field": "2017 GDP per capita (RM)",
+      "type": "quantitative",
+      "title": "GDP per Capita (RM)",
+      "axis": {"tickCount": 7}
+    },
+    "y": {
+      "field": "Employed person in Thousands",
+      "type": "quantitative",
+      "title": "Employed Persons (in Thousands)",
+      "axis": {"tickCount": 6}
+    }
+  },
+  "layer": [
+    {
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "field": "2017 GDP per capita (RM)",
+          "type": "quantitative",
+          "scale": {
+            "type": "linear",        
+            "range": [100, 4000]      
+          }
         },
-        "encoding": {
-          "text": {"field": "State", "type": "nominal"},
-          "color": {"value": "black"},
-          "tooltip": [
-            {"field": "State", "type": "nominal"},
-            {"field": "2017 GDP per capita (RM)", "type": "quantitative", "format": ","},
-            {"field": "Employed person in Thousands", "type": "quantitative", "format": ","}
-          ]
-        }
+        "color": {
+          "field": "State",
+          "type": "nominal",
+          "legend": {"title": "State"}
+        },
+        "tooltip": [
+          {"field": "State", "type": "nominal"},
+          {"field": "2017 GDP per capita (RM)", "type": "quantitative", "format": ","},
+          {"field": "Employed person in Thousands", "type": "quantitative", "format": ","}
+        ]
       }
-    ]
-  }
-  
+    },
+    {
+      "transform": [
+        {"filter": "datum['Employed person in Thousands'] > Employment_Above"} 
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",      
+        "baseline": "line-bottom",    
+        "dx": 0,               
+        "dy": -10,               
+        "fontSize": 12,       
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "State", "type": "nominal"},
+        "color": {"value": "black"},
+        "tooltip": [
+          {"field": "State", "type": "nominal"},
+          {"field": "2017 GDP per capita (RM)", "type": "quantitative", "format": ","},
+          {"field": "Employed person in Thousands", "type": "quantitative", "format": ","}
+        ]
+      }
+    }
+  ]
+}
