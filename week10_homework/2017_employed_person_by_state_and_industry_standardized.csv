@@ -1,0 +1,321 @@
+State,Industry,Employed person in Thousands
+Johor,"Agriculture, forestry and fishing",121.3
+Kedah,"Agriculture, forestry and fishing",121.2
+Kelantan,"Agriculture, forestry and fishing",100.1
+Melaka,"Agriculture, forestry and fishing",15.2
+Negeri Sembilan,"Agriculture, forestry and fishing",37.7
+Pulau Pinang,"Agriculture, forestry and fishing",10.3
+Pahang,"Agriculture, forestry and fishing",146.3
+Perak,"Agriculture, forestry and fishing",106.8
+Perlis,"Agriculture, forestry and fishing",10
+Sabah,"Agriculture, forestry and fishing",570.4
+Sarawak,"Agriculture, forestry and fishing",299.3
+Selangor,"Agriculture, forestry and fishing",55
+Terengganu,"Agriculture, forestry and fishing",40.4
+Kuala Lumpur,"Agriculture, forestry and fishing",0.4
+Labuan,"Agriculture, forestry and fishing",0.7
+Putrajaya,"Agriculture, forestry and fishing",0
+Johor,Mining and quarrying,8.9
+Kedah,Mining and quarrying,1.6
+Kelantan,Mining and quarrying,1.5
+Melaka,Mining and quarrying,2.2
+Negeri Sembilan,Mining and quarrying,1.6
+Pulau Pinang,Mining and quarrying,0.4
+Pahang,Mining and quarrying,5.2
+Perak,Mining and quarrying,4.8
+Perlis,Mining and quarrying,0.2
+Sabah,Mining and quarrying,16.8
+Sarawak,Mining and quarrying,10.8
+Selangor,Mining and quarrying,27.3
+Terengganu,Mining and quarrying,13.2
+Kuala Lumpur,Mining and quarrying,0.4
+Labuan,Mining and quarrying,2.2
+Putrajaya,Mining and quarrying,0
+Johor,Manufacturing,419.3
+Kedah,Manufacturing,183
+Kelantan,Manufacturing,65.1
+Melaka,Manufacturing,98.5
+Negeri Sembilan,Manufacturing,87.9
+Pulau Pinang,Manufacturing,299.9
+Pahang,Manufacturing,80.2
+Perak,Manufacturing,170.6
+Perlis,Manufacturing,9.9
+Sabah,Manufacturing,157.5
+Sarawak,Manufacturing,154.2
+Selangor,Manufacturing,683.8
+Terengganu,Manufacturing,50.5
+Kuala Lumpur,Manufacturing,48.2
+Labuan,Manufacturing,4.2
+Putrajaya,Manufacturing,0.6
+Johor,"Electricity, gas, steam and air conditioning supply",4.4
+Kedah,"Electricity, gas, steam and air conditioning supply",3.7
+Kelantan,"Electricity, gas, steam and air conditioning supply",2.8
+Melaka,"Electricity, gas, steam and air conditioning supply",1.7
+Negeri Sembilan,"Electricity, gas, steam and air conditioning supply",3.1
+Pulau Pinang,"Electricity, gas, steam and air conditioning supply",1.9
+Pahang,"Electricity, gas, steam and air conditioning supply",2.2
+Perak,"Electricity, gas, steam and air conditioning supply",6.8
+Perlis,"Electricity, gas, steam and air conditioning supply",0.3
+Sabah,"Electricity, gas, steam and air conditioning supply",7.4
+Sarawak,"Electricity, gas, steam and air conditioning supply",8.3
+Selangor,"Electricity, gas, steam and air conditioning supply",12.5
+Terengganu,"Electricity, gas, steam and air conditioning supply",4.2
+Kuala Lumpur,"Electricity, gas, steam and air conditioning supply",2.5
+Labuan,"Electricity, gas, steam and air conditioning supply",0.2
+Putrajaya,"Electricity, gas, steam and air conditioning supply",0.1
+Johor,"Water supply; sewerage, waste management and remediation activities",13.5
+Kedah,"Water supply; sewerage, waste management and remediation activities",6.6
+Kelantan,"Water supply; sewerage, waste management and remediation activities",1.4
+Melaka,"Water supply; sewerage, waste management and remediation activities",3
+Negeri Sembilan,"Water supply; sewerage, waste management and remediation activities",2.6
+Pulau Pinang,"Water supply; sewerage, waste management and remediation activities",6.4
+Pahang,"Water supply; sewerage, waste management and remediation activities",5
+Perak,"Water supply; sewerage, waste management and remediation activities",6.4
+Perlis,"Water supply; sewerage, waste management and remediation activities",0.5
+Sabah,"Water supply; sewerage, waste management and remediation activities",8.1
+Sarawak,"Water supply; sewerage, waste management and remediation activities",3.3
+Selangor,"Water supply; sewerage, waste management and remediation activities",11.8
+Terengganu,"Water supply; sewerage, waste management and remediation activities",3
+Kuala Lumpur,"Water supply; sewerage, waste management and remediation activities",9
+Labuan,"Water supply; sewerage, waste management and remediation activities",0.2
+Putrajaya,"Water supply; sewerage, waste management and remediation activities",0.1
+Johor,Construction,141.9
+Kedah,Construction,61.8
+Kelantan,Construction,81.3
+Melaka,Construction,30.5
+Negeri Sembilan,Construction,39.4
+Pulau Pinang,Construction,48.6
+Pahang,Construction,51.1
+Perak,Construction,70.8
+Perlis,Construction,8.4
+Sabah,Construction,138.8
+Sarawak,Construction,135.4
+Selangor,Construction,308.1
+Terengganu,Construction,53.7
+Kuala Lumpur,Construction,83.6
+Labuan,Construction,4.2
+Putrajaya,Construction,1.3
+Johor,"Wholesale and retail trade, repair of motor vehicles and motorcycles",271.8
+Kedah,"Wholesale and retail trade, repair of motor vehicles and motorcycles",146.2
+Kelantan,"Wholesale and retail trade, repair of motor vehicles and motorcycles",148.3
+Melaka,"Wholesale and retail trade, repair of motor vehicles and motorcycles",64.1
+Negeri Sembilan,"Wholesale and retail trade, repair of motor vehicles and motorcycles",66.2
+Pulau Pinang,"Wholesale and retail trade, repair of motor vehicles and motorcycles",135.2
+Pahang,"Wholesale and retail trade, repair of motor vehicles and motorcycles",112.6
+Perak,"Wholesale and retail trade, repair of motor vehicles and motorcycles",183.9
+Perlis,"Wholesale and retail trade, repair of motor vehicles and motorcycles",16.3
+Sabah,"Wholesale and retail trade, repair of motor vehicles and motorcycles",330
+Sarawak,"Wholesale and retail trade, repair of motor vehicles and motorcycles",180.5
+Selangor,"Wholesale and retail trade, repair of motor vehicles and motorcycles",560.3
+Terengganu,"Wholesale and retail trade, repair of motor vehicles and motorcycles",76.3
+Kuala Lumpur,"Wholesale and retail trade, repair of motor vehicles and motorcycles",186.4
+Labuan,"Wholesale and retail trade, repair of motor vehicles and motorcycles",5.6
+Putrajaya,"Wholesale and retail trade, repair of motor vehicles and motorcycles",1.7
+Johor,Transportation and storage,86.5
+Kedah,Transportation and storage,30.7
+Kelantan,Transportation and storage,17.1
+Melaka,Transportation and storage,10.6
+Negeri Sembilan,Transportation and storage,27.4
+Pulau Pinang,Transportation and storage,40.6
+Pahang,Transportation and storage,27.1
+Perak,Transportation and storage,34.1
+Perlis,Transportation and storage,3.2
+Sabah,Transportation and storage,66.5
+Sarawak,Transportation and storage,49.5
+Selangor,Transportation and storage,206.2
+Terengganu,Transportation and storage,13.2
+Kuala Lumpur,Transportation and storage,42.9
+Labuan,Transportation and storage,1.8
+Putrajaya,Transportation and storage,0.9
+Johor,Accommodation and food service activities,146.3
+Kedah,Accommodation and food service activities,108.7
+Kelantan,Accommodation and food service activities,73.8
+Melaka,Accommodation and food service activities,43
+Negeri Sembilan,Accommodation and food service activities,47.2
+Pulau Pinang,Accommodation and food service activities,69.2
+Pahang,Accommodation and food service activities,60.5
+Perak,Accommodation and food service activities,122.8
+Perlis,Accommodation and food service activities,12.8
+Sabah,Accommodation and food service activities,129.8
+Sarawak,Accommodation and food service activities,101.3
+Selangor,Accommodation and food service activities,267.2
+Terengganu,Accommodation and food service activities,47.1
+Kuala Lumpur,Accommodation and food service activities,87.4
+Labuan,Accommodation and food service activities,5
+Putrajaya,Accommodation and food service activities,1.2
+Johor,Information and communication,12.4
+Kedah,Information and communication,3.2
+Kelantan,Information and communication,3
+Melaka,Information and communication,4
+Negeri Sembilan,Information and communication,4.2
+Pulau Pinang,Information and communication,7.4
+Pahang,Information and communication,3.8
+Perak,Information and communication,4.4
+Perlis,Information and communication,0.3
+Sabah,Information and communication,7.6
+Sarawak,Information and communication,6.9
+Selangor,Information and communication,123.3
+Terengganu,Information and communication,1.6
+Kuala Lumpur,Information and communication,37.1
+Labuan,Information and communication,0.4
+Putrajaya,Information and communication,0.7
+Johor,Financial and insurance/takaful activities,27.3
+Kedah,Financial and insurance/takaful activities,11.3
+Kelantan,Financial and insurance/takaful activities,8.2
+Melaka,Financial and insurance/takaful activities,9.1
+Negeri Sembilan,Financial and insurance/takaful activities,13.3
+Pulau Pinang,Financial and insurance/takaful activities,15.5
+Pahang,Financial and insurance/takaful activities,8.2
+Perak,Financial and insurance/takaful activities,17.6
+Perlis,Financial and insurance/takaful activities,1
+Sabah,Financial and insurance/takaful activities,17.9
+Sarawak,Financial and insurance/takaful activities,14.4
+Selangor,Financial and insurance/takaful activities,160.7
+Terengganu,Financial and insurance/takaful activities,4.4
+Kuala Lumpur,Financial and insurance/takaful activities,58.6
+Labuan,Financial and insurance/takaful activities,0.9
+Putrajaya,Financial and insurance/takaful activities,0.6
+Johor,Real estate activities,13.2
+Kedah,Real estate activities,3
+Kelantan,Real estate activities,0.6
+Melaka,Real estate activities,1.3
+Negeri Sembilan,Real estate activities,2.6
+Pulau Pinang,Real estate activities,5.6
+Pahang,Real estate activities,1.4
+Perak,Real estate activities,1
+Perlis,Real estate activities,0.2
+Sabah,Real estate activities,5.1
+Sarawak,Real estate activities,2.1
+Selangor,Real estate activities,30.7
+Terengganu,Real estate activities,0.7
+Kuala Lumpur,Real estate activities,16.6
+Labuan,Real estate activities,0.2
+Putrajaya,Real estate activities,0.1
+Johor,"Professional, scientific and technical activities",31.8
+Kedah,"Professional, scientific and technical activities",10.7
+Kelantan,"Professional, scientific and technical activities",6.3
+Melaka,"Professional, scientific and technical activities",8.4
+Negeri Sembilan,"Professional, scientific and technical activities",10
+Pulau Pinang,"Professional, scientific and technical activities",21.4
+Pahang,"Professional, scientific and technical activities",5.8
+Perak,"Professional, scientific and technical activities",13.5
+Perlis,"Professional, scientific and technical activities",0.9
+Sabah,"Professional, scientific and technical activities",19.2
+Sarawak,"Professional, scientific and technical activities",16.9
+Selangor,"Professional, scientific and technical activities",131.8
+Terengganu,"Professional, scientific and technical activities",5.4
+Kuala Lumpur,"Professional, scientific and technical activities",64.1
+Labuan,"Professional, scientific and technical activities",0.6
+Putrajaya,"Professional, scientific and technical activities",1.2
+Johor,Administrative and support service activities,72.6
+Kedah,Administrative and support service activities,46.1
+Kelantan,Administrative and support service activities,28.6
+Melaka,Administrative and support service activities,20
+Negeri Sembilan,Administrative and support service activities,26
+Pulau Pinang,Administrative and support service activities,29.3
+Pahang,Administrative and support service activities,32.9
+Perak,Administrative and support service activities,48.7
+Perlis,Administrative and support service activities,6.8
+Sabah,Administrative and support service activities,60.4
+Sarawak,Administrative and support service activities,42.8
+Selangor,Administrative and support service activities,183.9
+Terengganu,Administrative and support service activities,26.2
+Kuala Lumpur,Administrative and support service activities,48.8
+Labuan,Administrative and support service activities,3.3
+Putrajaya,Administrative and support service activities,0.7
+Johor,Public administration and defence; compulsory social security,53
+Kedah,Public administration and defence; compulsory social security,41.1
+Kelantan,Public administration and defence; compulsory social security,39.9
+Melaka,Public administration and defence; compulsory social security,25.3
+Negeri Sembilan,Public administration and defence; compulsory social security,31.4
+Pulau Pinang,Public administration and defence; compulsory social security,32.4
+Pahang,Public administration and defence; compulsory social security,44.4
+Perak,Public administration and defence; compulsory social security,62
+Perlis,Public administration and defence; compulsory social security,9
+Sabah,Public administration and defence; compulsory social security,75.9
+Sarawak,Public administration and defence; compulsory social security,82.3
+Selangor,Public administration and defence; compulsory social security,139.5
+Terengganu,Public administration and defence; compulsory social security,31.3
+Kuala Lumpur,Public administration and defence; compulsory social security,47.9
+Labuan,Public administration and defence; compulsory social security,4.5
+Putrajaya,Public administration and defence; compulsory social security,22.4
+Johor,Education,90.1
+Kedah,Education,59.2
+Kelantan,Education,52
+Melaka,Education,34.6
+Negeri Sembilan,Education,35.8
+Pulau Pinang,Education,40.4
+Pahang,Education,54.8
+Perak,Education,71.7
+Perlis,Education,12.3
+Sabah,Education,89.3
+Sarawak,Education,77.5
+Selangor,Education,185.1
+Terengganu,Education,36
+Kuala Lumpur,Education,36.8
+Labuan,Education,2.2
+Putrajaya,Education,2.6
+Johor,Human health and social work activities,54.3
+Kedah,Human health and social work activities,49.6
+Kelantan,Human health and social work activities,32.9
+Melaka,Human health and social work activities,19.3
+Negeri Sembilan,Human health and social work activities,25.5
+Pulau Pinang,Human health and social work activities,30.9
+Pahang,Human health and social work activities,34.7
+Perak,Human health and social work activities,53.3
+Perlis,Human health and social work activities,4.5
+Sabah,Human health and social work activities,40.9
+Sarawak,Human health and social work activities,36.3
+Selangor,Human health and social work activities,148.8
+Terengganu,Human health and social work activities,20.1
+Kuala Lumpur,Human health and social work activities,33.6
+Labuan,Human health and social work activities,1
+Putrajaya,Human health and social work activities,2.6
+Johor,"Arts, entertainment and recreation",7.8
+Kedah,"Arts, entertainment and recreation",4.3
+Kelantan,"Arts, entertainment and recreation",2.3
+Melaka,"Arts, entertainment and recreation",3.3
+Negeri Sembilan,"Arts, entertainment and recreation",3.3
+Pulau Pinang,"Arts, entertainment and recreation",5.5
+Pahang,"Arts, entertainment and recreation",3.7
+Perak,"Arts, entertainment and recreation",6.1
+Perlis,"Arts, entertainment and recreation",0.4
+Sabah,"Arts, entertainment and recreation",8.6
+Sarawak,"Arts, entertainment and recreation",6.3
+Selangor,"Arts, entertainment and recreation",22.1
+Terengganu,"Arts, entertainment and recreation",2.7
+Kuala Lumpur,"Arts, entertainment and recreation",7.6
+Labuan,"Arts, entertainment and recreation",0.3
+Putrajaya,"Arts, entertainment and recreation",0.1
+Johor,Others service activities,30.8
+Kedah,Others service activities,9.8
+Kelantan,Others service activities,8.5
+Melaka,Others service activities,8.9
+Negeri Sembilan,Others service activities,6.2
+Pulau Pinang,Others service activities,16.9
+Pahang,Others service activities,8.7
+Perak,Others service activities,19.4
+Perlis,Others service activities,1.2
+Sabah,Others service activities,27
+Sarawak,Others service activities,20.5
+Selangor,Others service activities,70.9
+Terengganu,Others service activities,7.4
+Kuala Lumpur,Others service activities,23.7
+Labuan,Others service activities,0.5
+Putrajaya,Others service activities,0
+Johor,Activities of households as employers,9.6
+Kedah,Activities of households as employers,4.4
+Kelantan,Activities of households as employers,2.2
+Melaka,Activities of households as employers,3.1
+Negeri Sembilan,Activities of households as employers,6
+Pulau Pinang,Activities of households as employers,6.1
+Pahang,Activities of households as employers,1.8
+Perak,Activities of households as employers,8.7
+Perlis,Activities of households as employers,0.4
+Sabah,Activities of households as employers,19.3
+Sarawak,Activities of households as employers,5.3
+Selangor,Activities of households as employers,30
+Terengganu,Activities of households as employers,1
+Kuala Lumpur,Activities of households as employers,7.6
+Labuan,Activities of households as employers,0.4
+Putrajaya,Activities of households as employers,1
