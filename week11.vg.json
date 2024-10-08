@@ -1,0 +1,56 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/Alyssa0321/3179/refs/heads/main/datasets%20for%20Data%20Visualisation%202/Unemployment%20Rate.csv",
+      "format": {"type": "csv"}
+    },
+    
+    "width": 800,
+    "height": 400,
+    "layer": [
+      {
+        "mark": "line",
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "temporal",
+            "axis": {"title": "Year"}
+          },
+          "y": {
+            "field": "Unemployment Rate (Percentage)",
+            "type": "quantitative",
+            "axis": {"title": "Unemployment Rate (%)"}
+          },
+          "color": {
+            "field": "State/Country",
+            "type": "nominal",
+            "legend": {"title": "State/Country"}
+          }
+        }
+      },
+      {
+        "mark": "point",
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "temporal"
+          },
+          "y": {
+            "field": "Unemployment Rate (Percentage)",
+            "type": "quantitative"
+          },
+          "color": {
+            "field": "State/Country",
+            "type": "nominal"
+          },
+          "tooltip": [
+            {"field": "State/Country", "type": "nominal"},
+            {"field": "Year", "type": "temporal", "format": "%Y"},
+            {"field": "Unemployment Rate (Percentage)", "type": "quantitative", "format": ".2f"}
+          ]
+        }
+      }
+    ],
+    "title": "Unemployment Rate Trends by State (1982-2020)"
+  }
+  
