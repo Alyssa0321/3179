@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 800,
   "height": 350,
-  "title": "GDP per Capita vs. Employment (2017)",
   "data": {
     "url": "https://raw.githubusercontent.com/Alyssa0321/3179/refs/heads/main/week10_homework/combined_data.csv"
   },

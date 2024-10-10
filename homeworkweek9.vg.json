@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "GDP per Capita by State in Malaysia (2017)",
+
   "width": 600,
   "height": 400,
   "data": {

@@ -1,30 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-<script src="vega_lite_vis.js"></script>
-<title>First Vega-Lite graph </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malaysia Economic Indicators Visualization</title>
+    
+    <!-- Vega and Vega-Lite Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    
+    <!-- Custom Vega-Lite Scripts -->
+    <script src="vega_lite_vis.js" defer></script>
+    <script src="vega_lite_vis2.js" defer></script>
+    <script src="vega_lite_vis3.js" defer></script>
+    
+    <!-- Optional: Custom CSS for Styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .visualization {
+            margin: 30px 0;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-<h1>First Vega-Lite graph</h1>
-<div id="map">
-</div>
-<script src="vega_lite_vis2.js"></script>
-<title>Second Vega-Lite graph </title>
-</head>
-<body>
-<h1>Second Vega-Lite graph</h1>
-<div id="bubbleplot">
-</div>
-</body>
-<script src="vega_lite_vis3.js"></script>
-<h1>Third Vega-Lite graph</h1>
-<div id="line">
-</div>
+    <div class="container">
+        <!-- Introduction -->
+        <h1>Malaysia Economic Indicators Visualization</h1>
+        <p>Explore the economic landscape of Malaysia through various indicators such as GDP per capita, employment, and unemployment trends across different states from 2017 to 2020. These visualizations aim to provide insights into the regional economic disparities and growth patterns.</p>
+        
+        <!-- First Visualization -->
+        <section>
+            <h2>GDP per Capita by State in Malaysia (2017)</h2>
+            <div id="map" class="visualization"></div>
+            <p>This map illustrates the GDP per capita across different states in Malaysia for the year 2017. It highlights areas with higher economic performance and those that may require more focused development efforts.</p>
+        </section>
+        
+        <!-- Second Visualization -->
+        <section>
+            <h2>GDP per Capita vs. Employment (2017)</h2>
+            <div id="bubbleplot" class="visualization"></div>
+            <p>The bubble plot compares GDP per capita against employment rates in 2017. This visualization helps in understanding the relationship between economic output and employment levels across various states.</p>
+        </section>
+        
+        <!-- Third Visualization -->
+        <section>
+            <h2>Unemployment Rate Trends by State (1982-2020)</h2>
+            <div id="line" class="visualization"></div>
+            <p>This line chart showcases the trends in unemployment rates across different states from 1982 to 2020. It provides a historical perspective on how employment has evolved over nearly four decades.</p>
+        </section>
+        
+        <!-- Conclusion or Additional Insights -->
+        <section>
+            <h2>Conclusion</h2>
+            <p>The visualizations presented offer a comprehensive overview of Malaysia's economic indicators over the years. By analyzing GDP per capita, employment, and unemployment trends, stakeholders can make informed decisions to foster balanced regional growth and address economic challenges.</p>
+        </section>
+    </div>
 </body>
 </html>
