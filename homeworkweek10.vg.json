@@ -55,7 +55,7 @@
           "type": "quantitative",
           "scale": {
             "type": "linear",        
-            "range": [100, 3000]      
+            "range": [200, 5000]      
           }
         },
         "color": {
