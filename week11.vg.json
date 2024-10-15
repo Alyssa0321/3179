@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-      "url": "https://raw.githubusercontent.com/Alyssa0321/3179/refs/heads/main/datasets%20for%20Data%20Visualisation%202/Unemployment%20Rate.csv",
+      "url": "https://raw.githubusercontent.com/Alyssa0321/3179/refs/heads/main/datasets%20for%20Data%20Visualisation%202/Unemployment_Rate.csv",
       "format": {"type": "csv"}
     },
     
